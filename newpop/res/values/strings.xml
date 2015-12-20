@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PopupMenuDemo</string>
+<string name="action_settings">Settings</string>
+<string name="hello_world">Hello world!</string>
+<string name="Popup_button">Popup_Menu</string>
+<string name="menu_add">Addition</string>
+<string name="menu_sub">Substraction</string>
+<string name="menu_mul">Multiplication</string>
+<string name="menu_div">Division</string>
+</resources>

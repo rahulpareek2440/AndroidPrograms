@@ -1,0 +1,62 @@
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<ImageView
+    android:id="@+id/img"
+    android:src="@drawable/ic_launcher"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY"/>
+<ImageButton 
+    android:id="@+id/btnOne"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="35dip"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="70dip"
+    android:src="@drawable/ic_launcher"
+    android:background="@null"
+    android:visibility="invisible"/>
+<ImageButton 
+    android:id="@+id/btnTwo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="35dip"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="70dip"
+    android:src="@drawable/ic_launcher"
+    android:background="@null"
+    android:visibility="invisible"/>
+   <ImageButton 
+    android:id="@+id/btnThree"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btnOne"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="15dip"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dip"
+    android:src="@drawable/ic_launcher"
+    android:background="@null"
+    android:visibility="invisible"/>
+   <ImageButton 
+    android:id="@+id/btnFour"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btnTwo"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="15dip"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dip"
+    android:src="@drawable/ic_launcher"
+    android:background="@null"
+    android:visibility="invisible"/> 
+
+</RelativeLayout>

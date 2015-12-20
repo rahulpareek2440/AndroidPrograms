@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">stringadding 2</string>
+    <string name="action_settings">Settings</string>
+    <string name="New_String">New_String</string>
+    <string name="hello_world">Hello world!</string>
+    
+
+</resources>

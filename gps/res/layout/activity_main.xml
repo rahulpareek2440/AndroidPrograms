@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+<TableLayout android:id="@+id/tableLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+  <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" /> 
+  <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" /> 
+  <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" /> 
+  <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content" /> 
+  </TableLayout>
+<EditText android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:ems="10">
+  <requestFocus /> 
+  </EditText>
+  <Button android:id="@+id/button6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/editText1" android:text="SHOW DISTANCE TRAVELLED" /> 
+  <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/button6" android:text="Current Location" /> 
+  <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/button1" android:layout_marginTop="41dp" android:text="START" /> 
+  <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@+id/tableLayout1" android:layout_alignRight="@+id/button3" android:layout_marginBottom="51dp" android:layout_toRightOf="@+id/button4" android:text="CLICK TO START...." /> 
+  <Button android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/button5" android:layout_alignBottom="@+id/button5" android:layout_marginLeft="60dp" android:layout_toRightOf="@+id/tableLayout1" android:text="PAUSE" /> 
+  <Button android:id="@+id/button4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/button2" android:layout_alignBottom="@+id/button2" android:layout_alignLeft="@+id/button3" android:text="RESUME" /> 
+  <Button android:id="@+id/button5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/button2" android:layout_alignBottom="@+id/button2" android:layout_alignLeft="@+id/button2" android:text="STOP" /> 
+  </RelativeLayout>
